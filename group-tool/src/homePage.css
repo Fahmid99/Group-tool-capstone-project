@@ -1,0 +1,57 @@
+.homepage-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-top: 278px;
+  margin-left: 254px;
+  width: 777px;
+  height: 435px;
+}
+
+.body-welcome {
+  text-align: left;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 0 0 0 0 !important;
+
+  color: #5deecd;
+}
+
+.body-heading {
+  text-align: left;
+  margin: 0 0 0 0 !important;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  color: #ffffff;
+}
+
+.body-heading-two {
+  text-align: left;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  margin: 0 0 0 0 !important;
+
+  /* identical to box height */
+
+  color: #8892b0;
+}
+
+.body-description {
+  text-align: left;
+ margin: 0 0 0 0 !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+
+  color: #8892b0;
+}
