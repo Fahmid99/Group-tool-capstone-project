@@ -1,5 +1,5 @@
 import "./navBar.css";
-import logo from "../../assets/groupLogo.svg";
+import logo from "../../assets/vocalLogo.svg";
 import Button from "../button";
 function NavBar() {
   return (
