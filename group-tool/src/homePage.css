@@ -48,10 +48,37 @@
 
 .body-description {
   text-align: left;
- margin: 0 0 0 0 !important;
+  margin: 0 10 0 0 !important;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
 
   color: #8892b0;
+}
+
+.body-btn { 
+ display: flex;
+}
+
+.scroll-logo {
+  position: fixed;
+  width: 59px;
+  height: 152.42px;
+}
+
+.scroll-logo:hover {
+  position: fixed;
+  width: 59px;
+  height: 152.42px;
+  transform: scale(1.1);
+}
+
+.scroll-logo-container {
+  margin-left: 80%;
+}
+
+.vocal-text {
+  display: inline-block;
+  margin: 0 0 0 0 !important;
+  color:#5deecd;
 }

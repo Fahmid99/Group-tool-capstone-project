@@ -1,5 +1,6 @@
 import "./navBar.css";
 import logo from "../../assets/groupLogo.svg";
+import Button from "../button";
 function NavBar() {
   return (
     <div>
@@ -10,11 +11,13 @@ function NavBar() {
             <li>
               <a href="/">About</a>
             </li>
-            <li>Features</li>
-            <li>Dashboard</li>
+            <li><a href="/">Features</a></li>
+            <li><a href="/">Dashboard</a></li>
           </ul>
         </div>
-        <button>Sign In</button>
+        <div className="signup-btn-container">
+          <Button btnVariant="outline-button" btnText="Sign In" />
+        </div>
       </div>
     </div>
   );

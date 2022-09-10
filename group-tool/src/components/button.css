@@ -1,0 +1,26 @@
+.outline-button {
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 35px;
+    background-color: transparent;
+   
+  
+    border: 1.5px solid #5deecd;
+    border-radius: 5px;
+    cursor: pointer;
+  
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    fill: none;
+  
+    color: #5deecd;
+  }
+  
+  .outline-button:hover {
+    background-color: #5deecc14;
+    outline: none;
+  }
