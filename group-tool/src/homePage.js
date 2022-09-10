@@ -3,7 +3,6 @@ import "./homePage.css";
 function HomePage() {
   return (
     <div className="homepage-container">
-      <NavBar />
       <div className="body-container">
         <p className="body-welcome">Welcome to</p>
         <h1 className="body-heading">Vocaled</h1>
